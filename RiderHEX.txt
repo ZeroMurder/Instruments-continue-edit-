@@ -1,0 +1,48 @@
+﻿
+	//int l;
+	//l = 12;
+	//std::cout << "hello " <<l<<std::endl;
+	//return 0;
+#include <iostream>      
+#include <string>       
+#include <clocale>       
+
+int main() {
+    setlocale(LC_ALL, "Russian");
+
+    std::string user;
+    int a = 10, b = 10, c, d;
+
+    std::cout << "Enter user name: ";
+    std::cin >> user;
+    std::cout << "User name: " << user << std::endl;
+
+    const int atemps = 2;
+    int messages = 0;
+    int fail_count = 0;
+
+    while (messages < atemps) {
+        std::cout << "Enter number c (" << (atemps - messages)
+            << " attempts left): ";
+        std::cin >> c;
+        messages++;
+
+        if (c >= 10) {
+            fail_count++;
+            std::cout << "Fail!\n";     
+            if (fail_count == atemps) {
+                return 1;
+            }
+        }
+        else {
+            std::cout << "Good... continue\n";  
+            break;  
+        }
+    }
+
+    d = a + b + c;
+    std::cout << "User selected number: " << c << std::endl;
+    std::cout << "Win " << d << std::endl;
+
+    return 0;
+}

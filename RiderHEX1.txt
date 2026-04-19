@@ -1,0 +1,37 @@
+﻿#include <iostream>
+#include <string>
+using namespace std;
+
+// Определение класса
+class Class {
+public:
+    string d;
+    // Метод, аналогичный python() в Python
+    void python() {
+        cout << "hi" << endl; // Вывод "hi" (аналог print("hi"))
+
+        // Считываем ввод пользователя
+        string d;
+        cin >> d; // Аналогично input(":") в Python
+
+        // Проверяем значение ввода
+        if (d == "1") {
+            cout << "hello" << endl; // Вывод "hello", если d == "1"
+        }
+    }
+    void ssl() {
+        cout << "my name is" << d << endl;
+     }
+};
+
+// Главная функция — точка входа в программу
+int main() {
+    // Создаём экземпляр класса (аналог t = Class() в Python)
+    Class t;
+
+    // Вызываем метод python() один раз (аналог t.python())
+    t.python();
+    t.ssl();
+
+    return 0; // Завершение программы
+}

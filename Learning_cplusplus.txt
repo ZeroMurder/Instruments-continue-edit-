@@ -1,0 +1,107 @@
+// its My learning
+//#include <iostream>
+//#include <string>
+//int main() {
+//	//int c;
+//	//std::cin >> c;
+//	//if (c >= 15) {
+//	//	std::cout << "Failed" << std::endl;
+//	//	return 1;
+//	//}
+///*создание мини игры при нажатии на клавиши он говорит куда пользователь отошел в плане весь мир или полоска 30 счетчик при нажатии на y - 1,при нажатии на x + 1,
+//типо ходьба это нужно сделать условие что мпри нажатии на игрик минусуется -1  то выводится игрок отошел влево , еслит нажал x то +1.
+//
+//	int xy = 30
+//	int x, y;
+//	std::cin >> (keybd_event(0x58, 0, 0 , 0) xy - 1 )
+//		if
+//*/
+//	int user;
+//	if (user == 1) {
+//		std::cout << "Hello this DDos - Programm" << std::endl;
+//		std::cin >> user;
+//		return Starless();
+//	}
+//	void Starless() {
+//		
+//
+//		std::cout << "Hello This program, its Phishing programm stealer " << endl;
+//	}
+//	return 0;
+//}
+///*This programm no used real ddos, this project  для достажения и выклада in github*/
+
+// This learning videos leraning 1.
+//#include <iostream>
+//using namespace std;
+//struct Book {
+//	int id;
+//	int pages;
+//	float cost;
+//};
+//struct Lib {
+//	Book classic[3];
+//	Book horror[3];
+//
+//};
+//
+//
+//int main() {
+//	setlocale(0, "");
+//	Book c1 = { 1, 100, 50 };
+//	Book c2 = { 2, 100, 50 };
+//	Book c3 = { 3, 100, 50 };
+//
+//	Book h1 = { 6, 100, 20 };
+//	Book h2 = { 12, 200, 50 };
+//	Book h3 = { 2, 300, 80 };
+//
+//	Lib L1 = { {c1, c2, c3}, {h1, h2, h3} };
+//
+//	for (int i = 0; i < 3; i++)
+//	{
+//		cout << "Classic:"  << endl;
+//		cout << "Bppk:" << i + 1 << endl;
+//		cout << "Number_Identificator:" << L1.classic[i].id << endl;
+//		cout << "Pages_Identificator:" << L1.classic[i].pages << endl;
+//		cout << "Cost_Identificator:" << L1.classic[i].cost << endl;
+//	}
+//	cout << "\n\n";
+//	for (int i = 0; i < 3; i++)
+//	{
+//		cout << "Horror:" << endl;
+//		cout << "Book:" << i + 1 << endl;
+//		cout << "Number_Identificator:" << L1.horror[i].id << endl;
+//		cout << "Pages_Identificator:" << L1.horror[i].pages << endl;
+//		cout << "Cost_Identificator:" << L1.horror[i].cost << endl;
+//	}	
+//
+//
+// This code no select or classic and horror no used.
+//	//b1.id = 1;
+//	//b1.pages = 100;
+//	//b1.cost = 20.2;
+//
+//	//Book b2 = {
+//	//	2,300, 130.5
+//	//};
+//	//Book b3;
+//	//b3 = b1;
+//	//b3.pages = 10.2;
+//
+//	//cout << "Pass1:" << b1.id << endl;
+//	//cout << "Pass2:" << b1.pages << endl;
+//	//cout << "Pass3:" << b1.cost << endl;
+//
+//	//cout << "Pass1:" << b2.id << endl;
+//	//cout << "Pass2:" << b2.pages << endl;
+//	//cout << "Pass3:" << b2.cost << endl;
+//
+//	//cout << "Pass1:" << b3.id << endl;
+//	//cout << "Pass2:" << b3.pages << endl;
+//	//cout << "Pass3:" << b3.cost << endl;
+//	system("pause");
+//	return 0;
+//}
+
+//This learning 2.
